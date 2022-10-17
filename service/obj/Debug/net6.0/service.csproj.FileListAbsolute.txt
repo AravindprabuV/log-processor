@@ -1,0 +1,12 @@
+/Users/aravindprabuvk/Workspace/Languages/API.netCore/log-processor-api/service/bin/Debug/net6.0/service.deps.json
+/Users/aravindprabuvk/Workspace/Languages/API.netCore/log-processor-api/service/bin/Debug/net6.0/service.dll
+/Users/aravindprabuvk/Workspace/Languages/API.netCore/log-processor-api/service/bin/Debug/net6.0/service.pdb
+/Users/aravindprabuvk/Workspace/Languages/API.netCore/log-processor-api/service/obj/Debug/net6.0/service.csproj.AssemblyReference.cache
+/Users/aravindprabuvk/Workspace/Languages/API.netCore/log-processor-api/service/obj/Debug/net6.0/service.GeneratedMSBuildEditorConfig.editorconfig
+/Users/aravindprabuvk/Workspace/Languages/API.netCore/log-processor-api/service/obj/Debug/net6.0/service.AssemblyInfoInputs.cache
+/Users/aravindprabuvk/Workspace/Languages/API.netCore/log-processor-api/service/obj/Debug/net6.0/service.AssemblyInfo.cs
+/Users/aravindprabuvk/Workspace/Languages/API.netCore/log-processor-api/service/obj/Debug/net6.0/service.csproj.CoreCompileInputs.cache
+/Users/aravindprabuvk/Workspace/Languages/API.netCore/log-processor-api/service/obj/Debug/net6.0/service.dll
+/Users/aravindprabuvk/Workspace/Languages/API.netCore/log-processor-api/service/obj/Debug/net6.0/refint/service.dll
+/Users/aravindprabuvk/Workspace/Languages/API.netCore/log-processor-api/service/obj/Debug/net6.0/service.pdb
+/Users/aravindprabuvk/Workspace/Languages/API.netCore/log-processor-api/service/obj/Debug/net6.0/ref/service.dll

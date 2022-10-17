@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1703.7
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "log-processor-api", "log-processor-api\log-processor-api.csproj", "{7C23F710-8D54-4D38-ACFE-E44B3A13201E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "service", "service\service.csproj", "{4B0B54C7-1CA5-484E-83D4-AD5156B4CF88}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7C23F710-8D54-4D38-ACFE-E44B3A13201E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C23F710-8D54-4D38-ACFE-E44B3A13201E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C23F710-8D54-4D38-ACFE-E44B3A13201E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C23F710-8D54-4D38-ACFE-E44B3A13201E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B0B54C7-1CA5-484E-83D4-AD5156B4CF88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B0B54C7-1CA5-484E-83D4-AD5156B4CF88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B0B54C7-1CA5-484E-83D4-AD5156B4CF88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B0B54C7-1CA5-484E-83D4-AD5156B4CF88}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ECAA97A0-6265-4BFD-AB36-808ED198655A}
+	EndGlobalSection
+EndGlobal
