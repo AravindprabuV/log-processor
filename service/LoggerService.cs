@@ -1,16 +1,17 @@
 ﻿using System.Text.Json;
 using System.Text.Json.Nodes;
 using System.Text.RegularExpressions;
+using Newtonsoft.Json.Linq;
 using service.Interface;
 
 namespace service;
 public class LoggerService : ILoggerService
 {
-    public async Task ParseLogFiles(string file)
+    public async Task<Dictionary<int,string>> GetApiIdFromFile(string file)
     {
         var fileData = await File.ReadAllLinesAsync (file);
 
-        Dictionary<int, JsonNode> dict = new();
+        Dictionary<int, string> dict = new();
         var i = 0;
         foreach (var line in fileData)
         {
@@ -20,13 +21,24 @@ public class LoggerService : ILoggerService
 
             jsonData = jsonData.Replace("\b", "");
 
-            dict.Add(i, JsonSerializer.Deserialize<JsonNode>(jsonData));
+            var seralizedJson = JObject.Parse(jsonData);
+
+            var apiIdNode = seralizedJson.SelectToken("RawRequest.ApiId");
+
+            if (apiIdNode != null)
+            {
+
+                dict.Add(i, value: apiIdNode.Value<string>());
+            }
+
 
 
             i++;
 
 
         }
+
+        return dict;
 
     }
 }

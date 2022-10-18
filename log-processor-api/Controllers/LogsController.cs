@@ -24,10 +24,12 @@ namespace log_processor_api.Controllers
 
         // GET: api/Logs
         [HttpGet]
-        public async Task<IEnumerable<string>> Get()
+        public async Task<JsonResult> Get()
         {
-            await this._loggerService.ParseLogFiles("Docs/1.log");
-            return new string[] { "value1", "value2" };
+            var data = await this._loggerService.GetApiIdFromFile("Docs/1.log");
+            return new JsonResult( new
+            { result= data.ToList()
+            });
         }
 
         // GET: api/Logs/5

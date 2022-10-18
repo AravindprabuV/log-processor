@@ -3,7 +3,7 @@ namespace service.Interface
 {
     public interface ILoggerService
     {
-        public Task ParseLogFiles(string file);
+        public Task<Dictionary<int, string>> GetApiIdFromFile(string file);
 
     }
 }
